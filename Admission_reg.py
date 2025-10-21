@@ -7,7 +7,7 @@ import numpy as np
 warnings.filterwarnings('ignore')
 
 password_guess = st.text_input("What is the password?")
-if password_guess != st.secrets["bando"]:
+if password_guess != st.secrets["password"]:
     st.stop()
 st.title('Graduate Admission Prediction') 
 
